@@ -14,7 +14,7 @@ const toggleMenu = () => {
 
 const handleClick = (item) => {
   if (item === 'inicio') {
-    activeView.value = 'inicio'
+    activeView.value = 'inicios'
   } else if (item === 'papelera') {
     activeView.value = 'papelera'
   }
